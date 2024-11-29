@@ -1,0 +1,81 @@
+body{
+    background-color: #d81238;
+}
+.header{
+    width: 1280px;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background: #664e30;
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 80px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: lightpink;
+}
+/* kode css dropdown */
+ul li ul.dropdown{
+    background: #664e30;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* kode css side bar */
+.test{
+    display: flexbox;
+}
+
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+/* LEFT COLUMN */
+.column.side{
+    margin: 190px 0px;
+    width: 255px;
+    height: 550px;
+    background-color:  #664e30;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px deeppink ;
+    border-radius: 20px;
+}
+/* Kode css middle bar */
+.column.middle{
+    margin: 190px 0px;
+    width: 952px;
+    height: 400px;
+    background-color: #fadfb5;
+    color: #404040;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;  
+    border-radius: 20px;
+}
+/* kode footer */
+.footer{
+    width: 1500px;
+    position: fixed;
+    margin: 700px;
+}
+
